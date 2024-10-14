@@ -34,3 +34,14 @@ jQuery(document).ready(function(){
         });
       });
 });
+$(document).ready(function() {
+  $('#projectModal').on('show.bs.modal', function (event) {
+    var button = $(event.relatedTarget); // Botón que activó el modal
+    var title = button.data('EEE'); // Extraer información del atributo data-title
+    var description = button.data('description'); // Extraer información del atributo data-description
+
+    var modal = $(this);
+    modal.find('.modal-title').text(title); // Asignar título al modal
+    modal.find('.modal-body #projectDescription').text(description); // Asignar descripción al modal
+  });
+});
