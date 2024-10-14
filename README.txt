@@ -1,5 +1,5 @@
 README
-ABRE SOLO INDEX.TXT (Paginaprincipal.html es el antiguo, le he cambiado de nombre a index.html)
+ABRE SOLO INDEX.TXT (Paginaprincipal.html es el antiguo, le he cambiado de nombre a index.html y tiene ya añadido el jquery dentro del archivo)
 Este proyecto personal es una página web diseñada para mostrar información sobre mí, mis intereses y proyectos en los que he trabajado y el contacto. La página está construida con HTML, CSS y Bootstrap para un diseño responsivo y fácil de usar.
 
 
