@@ -10,6 +10,10 @@
     body {
       scroll-behavior: smooth;
       background-color: #add8e6;
+      h2 {
+            font-family: 'Lora', serif;
+            font-weight: bold;
+        }
     }
   </style>
 </head>
@@ -60,23 +64,22 @@
     <div class="row" id="projectCards">
       <div class="col-md-4">
         <div class="card">
-          <img src="https://via.placeholder.com/300" class="card-img-top" alt="Proyecto 1">
-          <div class="card-body">
-            <h5 class="card-title">EEE</h5>
-            <p class="card-text">Los alumnos de 1º de ASIR nos juntamos con los de  2º de Electricidad de Salesianos y creamos E al cubo.
-              Este proyecto iba de un arduino que tenia varias funciones, en mi caso hicimos una caja 
+          <img src="https://imagenes.diariodenavarra.es/files/bajacalidad/uploads/2024/05/16/664635acbd6dc.jpeg" class="card-img-top" alt="Proyecto I3">
+           <div class="card-body">
+            <h5 class="card-title">I3</h5>
+            <p class="card-text">El proyecto I3, desarrollado por nosotros (Cuatrovientos) y los Salesianos de Pamplona, se centra en la creación de un dispositivo que mejore el aprendizaje en el aula, especialmente adaptándose a las necesidades de los alumnos con discapacidad. Este innovador enfoque busca combinar la educación con la tecnología, permitiendo que los estudiantes interactúen con materiales didácticos de manera más efectiva. A través de la empatía y la identificación de los desafíos educativos, el proyecto fomenta un ambiente inclusivo donde todos los alumnos puedan participar plenamente en su proceso de aprendizaje. Este tipo de iniciativas refleja un compromiso con la educación personalizada y la adaptación de los recursos didácticos para hacerlos más accesible.
             </p>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#projectModal" data-title="Proyecto 1" data-description="Detalles completos del proyecto 1.">Más Información</button>
+            
           </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="card">
-          <img src="https://via.placeholder.com/300" class="card-img-top" alt="Proyecto 2">
+          <img src="https://acdn.mitiendanube.com/stores/001/749/777/products/acer-platanoides-adulto1-c905ef1e7f5578006e16345566873017-640-0.jpg" width="250" height="250" class="card-img-top" alt="Proyecto 2">
           <div class="card-body">
-            <h5 class="card-title">Proyecto 2</h5>
-            <p class="card-text">Descripción breve del proyecto 2.</p>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#projectModal" data-title="Proyecto 2" data-description="Detalles completos del proyecto 2.">Más Información</button>
+            <h5 class="card-title">Ciclo Vital del Arce: Un Estudio de Cambios y Adaptaciones</h5>
+            <p class="card-text">En 2º de bachiller hicimos un proyecto en el que teníamos que revisar un árbol en todas sus fases e investigar el porqué de sus cambios. Yo elegí un árbol de arce (del género Acer), específicamente un Acer platanoides, conocido como arce noruego. Teníamos que hacer fotos y describir los cambios ocurridos durante ese período, observando el desarrollo de las hojas, la floración y los cambios en la corteza a lo largo de las estaciones. Este proyecto no solo me permitió profundizar en el ciclo de vida del arce, sino que también me enseñó sobre la importancia de la fotosíntesis y cómo influye en el crecimiento del árbol. Además, aprendí a apreciar los detalles de la naturaleza y cómo cada estación trae consigo una transformación única en el paisaje.</p>
+            
           </div>
         </div>
       </div>
@@ -84,9 +87,9 @@
         <div class="card">
           <img src="https://via.placeholder.com/300" class="card-img-top" alt="Proyecto 3">
           <div class="card-body">
-            <h5 class="card-title">Proyecto 3</h5>
+            <h5 class="card-title"> </h5>
             <p class="card-text">Descripción breve del proyecto 3.</p>
-            <button class="btn btn-primary" data-toggle="modal" data-target="#projectModal" data-title="Proyecto 3" data-description="Detalles completos del proyecto 3.">Más Información</button>
+           
           </div>
         </div>
       </div>
@@ -126,8 +129,26 @@
         <textarea class="form-control" id="message" rows="3" placeholder="Escribe tu mensaje" required></textarea>
       </div>
       <button type="submit" class="btn btn-primary">Enviar</button>
-    </form>
+      </form>
   </div>
+  <div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="confirmationModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="confirmationModalLabel">Confirmación</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>¡Gracias! Tu mensaje ha sido enviado correctamente.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
 
   <!-- Footer -->
   <footer class="bg-light text-center py-3">
