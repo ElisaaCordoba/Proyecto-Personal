@@ -1,8 +1,8 @@
 README
-ABRE SOLO INDEX.TXT (Paginaprincipal.html es el antiguo, le he cambiado de nombre a index.html y tiene ya añadido el jquery dentro del archivo)
+ABRE SOLO INDEX.PHP (Paginaprincipal.html es el antiguo, le he cambiado de nombre a index.html y tiene ya añadido el jquery dentro del archivo)
 Este proyecto personal es una página web diseñada para mostrar información sobre mí, mis intereses y proyectos en los que he trabajado y el contacto. La página está construida con HTML, CSS y Bootstrap para un diseño responsivo y fácil de usar.
 
-
+Para agregar nuevos proyectos al sistema, primero importa el archivo .sql en tu base de datos. Luego, abre newproyect.php en tu navegador para acceder al formulario de creación de proyectos.
 
 Características
 Secciones principales: Sobre mí, Mis Proyectos, Contacto.
